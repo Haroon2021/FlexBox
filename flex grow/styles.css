@@ -50,13 +50,13 @@
   }
   
   /* To make a specific item fill out the remaining space select it and put flex grow to one */
-  .item-1 {
-    flex-shrink: 10
-  }
-
-  /* .item-2 {
-    flex-grow: 1
+  /* .item-1 {
+    flex-shrink: 1
   } */
+
+  .item-2 {
+    flex-grow: 1
+  }
 
   /* .item-3 {
     flex-grow: 1
