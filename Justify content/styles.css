@@ -47,5 +47,12 @@
   /* END OF BASE STYLES */
   .container {
     display: flex;
+    /* uncomment justify-content lines one by one to see the impact  */
+    /* justify-content: left; */
+    /* justify-content: center; */
+    /* justify-content: right; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
   }
   

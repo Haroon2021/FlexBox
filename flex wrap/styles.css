@@ -47,5 +47,17 @@
   /* END OF BASE STYLES */
   .container {
     display: flex;
+    flex-wrap: wrap;
+    /* if we have flex-wrap: wrap written we unlock the align content-property */
+    /* Uncomment the align-content lines one by one */
+    align-content: flex-end;
+    /* align-content: flex-start; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    /* align-content: center; */
+    /* uncomment below to add gaps between the items */
+    /* gap: 1em; */
   }
   
